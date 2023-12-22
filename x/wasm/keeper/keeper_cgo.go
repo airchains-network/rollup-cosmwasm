@@ -10,7 +10,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // NewKeeper creates a new contract Keeper instance

@@ -6,7 +6,7 @@ import (
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // CountTXDecorator ante handler to count the tx position in a block.

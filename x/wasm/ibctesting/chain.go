@@ -43,8 +43,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/airchains-network/cosmwasm/app"
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
 )
 
 var MaxAccounts = 10

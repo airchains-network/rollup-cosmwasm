@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wasmibctesting "github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
+	wasmibctesting "github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
 )
 
 func TestIBCReflectContract(t *testing.T) {

@@ -11,11 +11,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/address"
 	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 
-	"github.com/airchains-network/cosmwasm/x/wasm"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	v3 "github.com/airchains-network/cosmwasm/x/wasm/migrations/v3"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	v3 "github.com/airchains-network/rollup-cosmwasm/x/wasm/migrations/v3"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestMigrate3To4(t *testing.T) {

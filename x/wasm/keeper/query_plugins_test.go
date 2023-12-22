@@ -31,10 +31,10 @@ import (
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/airchains-network/cosmwasm/app"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestIBCQuerier(t *testing.T) {

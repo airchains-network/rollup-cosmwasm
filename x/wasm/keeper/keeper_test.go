@@ -35,8 +35,8 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 //go:embed testdata/hackatom.wasm
@@ -732,7 +732,7 @@ func TestInstantiateWithContractFactoryChildQueriesParent(t *testing.T) {
 	// 	     and the child contracts queries the senders ContractInfo on instantiation
 	//	then the factory contract's ContractInfo should be returned to the child contract
 	//
-	// see also: https://github.com/airchains-network/cosmwasm/issues/896
+	// see also: https://github.com/airchains-network/rollup-cosmwasm/issues/896
 	ctx, keepers := CreateTestInput(t, false, AvailableCapabilities)
 	keeper := keepers.WasmKeeper
 

@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/cosmos/cosmos-sdk/std"
 
-	"github.com/airchains-network/cosmwasm/app/params"
+	"github.com/airchains-network/rollup-cosmwasm/app/params"
 )
 
 // MakeEncodingConfig creates a new EncodingConfig with all modules registered

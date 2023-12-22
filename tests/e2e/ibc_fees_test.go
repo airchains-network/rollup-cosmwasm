@@ -18,9 +18,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/address"
 
-	"github.com/airchains-network/cosmwasm/app"
-	wasmibctesting "github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	wasmibctesting "github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestIBCFeesTransfer(t *testing.T) {

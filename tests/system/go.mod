@@ -1,4 +1,4 @@
-module github.com/airchains-network/cosmwasm/tests/system
+module github.com/airchains-network/rollup-cosmwasm/tests/system
 
 go 1.19
 

@@ -22,7 +22,7 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the sample SimApp upgrade

@@ -19,8 +19,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestEncoding(t *testing.T) {

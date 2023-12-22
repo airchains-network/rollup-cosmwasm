@@ -16,8 +16,8 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestConstructorOptions(t *testing.T) {

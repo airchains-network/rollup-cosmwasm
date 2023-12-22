@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/airchains-network/cosmwasm/app"
+	"github.com/airchains-network/rollup-cosmwasm/app"
 )
 
 func main() {

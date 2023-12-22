@@ -77,10 +77,10 @@ import (
 	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	wasmappparams "github.com/airchains-network/cosmwasm/app/params"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/testdata"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmappparams "github.com/airchains-network/rollup-cosmwasm/app/params"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/testdata"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 var moduleBasics = module.NewBasicManager(

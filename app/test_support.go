@@ -9,7 +9,7 @@ import (
 	capabilitykeeper "github.com/cosmos/cosmos-sdk/x/capability/keeper"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
 )
 
 func (app *WasmApp) GetIBCKeeper() *ibckeeper.Keeper {

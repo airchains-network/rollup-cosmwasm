@@ -1,4 +1,4 @@
-module github.com/airchains-network/cosmwasm
+module github.com/airchains-network/rollup-cosmwasm
 
 go 1.20
 

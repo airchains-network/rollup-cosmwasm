@@ -18,8 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func GetQueryCmd() *cobra.Command {

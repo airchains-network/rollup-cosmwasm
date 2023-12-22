@@ -15,7 +15,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func BenchmarkTxSending(b *testing.B) {

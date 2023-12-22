@@ -7,9 +7,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/airchains-network/cosmwasm/app/params"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/testdata"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app/params"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/testdata"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 const (

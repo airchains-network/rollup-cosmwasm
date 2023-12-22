@@ -22,8 +22,8 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/testdata"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/testdata"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // ReflectInitMsg is {}

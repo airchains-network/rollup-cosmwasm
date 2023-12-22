@@ -13,9 +13,9 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/group"
 
-	"github.com/airchains-network/cosmwasm/tests/e2e"
-	"github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/tests/e2e"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestGroupWithContract(t *testing.T) {

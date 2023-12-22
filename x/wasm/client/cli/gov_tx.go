@@ -22,8 +22,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
 	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/ioutils"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ioutils"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // DefaultGovAuthority is set to the gov module address.

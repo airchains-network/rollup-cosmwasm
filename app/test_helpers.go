@@ -43,8 +43,8 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // SetupOptions defines arguments that are passed into `WasmApp` constructor.

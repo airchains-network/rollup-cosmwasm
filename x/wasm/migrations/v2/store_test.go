@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 
-	"github.com/airchains-network/cosmwasm/x/wasm"
-	"github.com/airchains-network/cosmwasm/x/wasm/exported"
-	v2 "github.com/airchains-network/cosmwasm/x/wasm/migrations/v2"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/exported"
+	v2 "github.com/airchains-network/rollup-cosmwasm/x/wasm/migrations/v2"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 type mockSubspace struct {

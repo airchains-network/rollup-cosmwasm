@@ -36,7 +36,7 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // SimAppChainID hardcoded chainID for simulation

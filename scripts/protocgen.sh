@@ -26,5 +26,5 @@ buf generate --template buf.gen.doc.yml
 cd ..
 
 # move proto files to the right places
-cp -r github.com/airchains-network/cosmwasm/* ./
+cp -r github.com/airchains-network/rollup-cosmwasm/* ./
 rm -rf github.com

@@ -243,7 +243,7 @@ jobs:
             --title "$CIRCLE_TAG" \
             --draft \
             --notes "# Wasmd ${CIRCLE_TAG} Release
-            See the [CHANGELOG](https://github.com/airchains-network/cosmwasm/blob/${CIRCLE_TAG}/CHANGELOG.md) for details on the changes in this version.
+            See the [CHANGELOG](https://github.com/airchains-network/rollup-cosmwasm/blob/${CIRCLE_TAG}/CHANGELOG.md) for details on the changes in this version.
             "
 
 workflows:

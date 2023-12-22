@@ -19,8 +19,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/ioutils"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ioutils"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 const (

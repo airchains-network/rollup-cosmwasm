@@ -18,10 +18,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/airchains-network/cosmwasm/app/params"
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/testdata"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app/params"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/testdata"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // Simulation operation weights constants

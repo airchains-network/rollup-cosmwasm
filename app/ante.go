@@ -11,8 +11,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	wasmTypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	wasmTypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // HandlerOptions extend the SDK's AnteHandler options by requiring the IBC

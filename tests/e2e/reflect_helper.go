@@ -10,9 +10,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/testdata"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/testdata"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // InstantiateReflectContract store and instantiate a reflect contract instance

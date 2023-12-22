@@ -11,8 +11,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/airchains-network/cosmwasm/app"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestModuleMigrations(t *testing.T) {

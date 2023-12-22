@@ -18,8 +18,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/address"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/airchains-network/cosmwasm/app"
-	wasmibctesting "github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	wasmibctesting "github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
 )
 
 func TestICA(t *testing.T) {

@@ -50,9 +50,7 @@ grep bond_denom ./private/.airwasmicapp/config/genesis.json
     --home ./private/.airwasmicapp
 
 
-# Run the node
-./build/airwasmicd start \
-    --home ./private/.airwasmicapp
+
 
 
 

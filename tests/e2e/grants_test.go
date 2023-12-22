@@ -16,9 +16,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/airchains-network/cosmwasm/tests/e2e"
-	"github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	"github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/tests/e2e"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 func TestGrants(t *testing.T) {

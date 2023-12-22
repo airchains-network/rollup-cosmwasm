@@ -16,11 +16,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	app2 "github.com/airchains-network/cosmwasm/app"
-	wasmibctesting "github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	"github.com/airchains-network/cosmwasm/x/wasm/keeper/wasmtesting"
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	app2 "github.com/airchains-network/rollup-cosmwasm/app"
+	wasmibctesting "github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper/wasmtesting"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 const (

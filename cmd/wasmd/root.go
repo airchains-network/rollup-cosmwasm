@@ -33,12 +33,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	"github.com/airchains-network/cosmwasm/app"
-	"github.com/airchains-network/cosmwasm/app/params"
-	"github.com/airchains-network/cosmwasm/x/wasm"
-	wasmcli "github.com/airchains-network/cosmwasm/x/wasm/client/cli"
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	"github.com/airchains-network/rollup-cosmwasm/app/params"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm"
+	wasmcli "github.com/airchains-network/rollup-cosmwasm/x/wasm/client/cli"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 // NewRootCmd creates a new root command for wasmd. It is called once in the

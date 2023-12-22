@@ -12,8 +12,8 @@ import (
 	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	wasmkeeper "github.com/airchains-network/cosmwasm/x/wasm/keeper"
-	wasmtypes "github.com/airchains-network/cosmwasm/x/wasm/types"
+	wasmkeeper "github.com/airchains-network/rollup-cosmwasm/x/wasm/keeper"
+	wasmtypes "github.com/airchains-network/rollup-cosmwasm/x/wasm/types"
 )
 
 var emptyWasmOpts []wasmkeeper.Option

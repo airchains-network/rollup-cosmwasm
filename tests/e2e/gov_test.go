@@ -13,9 +13,9 @@ import (
 	distributiontypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	"github.com/airchains-network/cosmwasm/app"
-	"github.com/airchains-network/cosmwasm/tests/e2e"
-	"github.com/airchains-network/cosmwasm/x/wasm/ibctesting"
+	"github.com/airchains-network/rollup-cosmwasm/app"
+	"github.com/airchains-network/rollup-cosmwasm/tests/e2e"
+	"github.com/airchains-network/rollup-cosmwasm/x/wasm/ibctesting"
 )
 
 func TestGovVoteByContract(t *testing.T) {
