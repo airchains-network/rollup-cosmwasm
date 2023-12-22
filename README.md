@@ -22,7 +22,7 @@ This repository hosts the fork of `Wasmd`, an implementation of the Cosmos SDK m
 
 ## Features
 
-- **EVM Compatibility**: Allows Ethereum smart contracts to run seamlessly on Cosmos.
+- **Smart Contract Compatibility**: Allows smart contracts to run seamlessly on Cosmos.
 - **Scalability**: Leverages Cosmos' scalability features for enhanced performance.
 - **Interoperability**: Connects easily with other chains in the Cosmos network.
 
