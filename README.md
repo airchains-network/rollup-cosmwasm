@@ -18,7 +18,7 @@ This repository hosts the fork of `Wasmd`, an implementation of the Cosmos SDK m
 
 ## Introduction
 
-`Wasmd` is at the forefront of integrating wasm smart contracts into the Cosmos network. This fork is dedicated to expanding its functionalities, ensuring EVM compatibility, and enhancing interoperability with other blockchains in the Cosmos ecosystem.
+`Wasmd` is at the forefront of integrating wasm smart contracts into the Cosmos network. This fork is dedicated to expanding its functionalities, ensuring SC compatibility, and enhancing interoperability with other blockchains in the Cosmos ecosystem.
 
 ## Features
 
@@ -33,7 +33,7 @@ Provide step-by-step installation instructions, like so:
 
 ### Configuration Setup
 
-To properly configure the EVM-based Cosmos Chain, you need to set up a `config.json` file in the `config` folder.
+To properly configure the Cosmos Chain, you need to set up a `config.json` file in the `config` folder.
 
 #### Creating the Config Folder and File
 
@@ -54,7 +54,7 @@ To properly configure the EVM-based Cosmos Chain, you need to set up a `config.j
     {
         "chainID":  "aircosmic_5501-1107",
         "key":      "dummy",
-        "moniker":  "test-evm-rollup"
+        "moniker":  "test-rollup"
     }
 }
 ```
